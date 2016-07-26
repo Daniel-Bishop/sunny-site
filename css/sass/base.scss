@@ -1,0 +1,157 @@
+html,body{
+	height:100%;
+	width:100%;
+	padding:0px;
+	margin:0px;
+}
+
+body{
+
+	background-image:url('../img/girl-field.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:50% 0;
+	font-family: 'Open Sans', sans-serif;
+
+}
+nav{
+height:100%;
+}
+
+ul{
+	margin-top:0px;
+	padding-top:0px;
+	padding-left:0px;
+	margin-bottom:0px;
+	position:relative;
+	top:5%;
+	width:100%;
+	height:90%;
+}
+li{
+	height:20%;
+	list-style-type:none;
+}
+a{
+	color:#FFFFFF;
+	display:block;
+	width:100%;
+	text-align:center;
+	font-size:2em;
+	border-bottom:none;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+li:last-child a{
+	
+}
+a:hover{
+	
+	color:white;
+	font-size:2.2em;
+	cursor:pointer;
+}
+.menu-container{
+	
+	height:auto;
+	
+	.menu-inner{
+		
+		z-index:-1;
+		height:0px;
+		transition: height 0.8s;
+		-webkit-transition: height 0.8s;
+		background-color:rgba(#BFBC62,0.6);
+		
+		color:white;
+		overflow:hidden
+	}
+	span{
+		position:absolute;
+		
+		left:80%;
+		top:10px;
+		color:white;
+		background-color:#BFBC62;
+		opacity:0.8;
+		padding:5px;
+		border:solid 1px #2F3638;
+		box-shadow: 2px 5px 5px rgba(#2F3638,.7);
+	}
+	span:hover{
+		cursor:pointer;
+	}
+	.side-nav{
+		
+		height:100%;
+		background-color:rgba(#BFBC62,0.6);
+		
+		display:flex;
+		
+		align-items:center;
+		justify-content:center;
+	}
+
+}
+
+.main-content{
+	text-align:center;
+	width:100%;
+	margin:0 auto;
+	margin-top:20vh;
+	
+	
+	img{
+		width:20vw;
+	}
+	
+	h1{
+		display:inline-block;
+		width:100%;
+		margin-top:27px;
+		color:white;
+		font-family: 'Open Sans', sans-serif;
+		font-size:5.5vw;
+	}
+
+	
+
+}
+
+.lge-button{
+	width:55%;
+	margin:0 auto;
+	margin-top:55px;
+	
+	border:solid 2px white;
+	border-radius: 5px;
+	color:white;
+	font-size:2.8vw;
+	font-weight:400;
+	margin-bottom:20px;
+	overflow:hidden;
+	h2{
+
+		font-family: 'Open Sans ', sans-serif;
+		text-align: center;
+		font-weight:100;
+		padding-left:5px;
+	padding-right:5px;
+	}
+
+	.inner-fill{
+  	position:absolute;
+  	z-index:-3;
+		height:0px;
+		transition: height 0.5s;
+		-webkit-transition: height 0.5s;
+		background-color:white;
+		
+		color:transparent;
+		display:flex;
+		align-items:center;
+		justify-content:center;
+	}
+
+}
+

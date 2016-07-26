@@ -1,0 +1,66 @@
+@media screen and(min-width:1279px){
+.main-content{
+	margin-top:20vh;
+}
+.menu-inner{
+
+	height:0px !important;
+	.side-nav{
+	height:auto;
+	min-width:200px;
+	min-height:350px;
+	border-top:solid 1px white;
+	border-bottom:solid 1px white;
+	position:absolute;
+	left:79%;
+	top:24vh;
+	font-size:1.8rem;
+	opacity:1.0;
+	display:block;
+	background-color:transparent;
+	color:white;
+	nav{
+		height: auto;
+	}
+	ul{
+		margin-top:0px;
+		padding-top:20px;
+		height:auto;
+		top:0%;
+	}
+	li{
+		border:none;
+		height:auto;
+		width:50%;
+		margin:0 auto;
+	}
+	li:last-child a{
+		border:none;
+	}
+	.active{
+		list-style-type:disc;
+	}
+	a{
+		border:none;
+		color:white;
+		font-weight:100;
+		font-size:1.8rem;
+	}
+	a:hover{
+		font-size:1.9rem;
+		background-color:transparent;
+	}
+
+}
+
+}
+.menu-container{
+
+	span{
+		visibility: hidden;
+				
+	}
+}
+
+
+}

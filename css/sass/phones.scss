@@ -1,0 +1,40 @@
+
+/*Samsung S3*/
+
+@media  (device-width: 640px),handheld and (orientation: landscape)and (-webkit-device-pixel-ratio: 2)  { 
+	.main-content{
+		img{
+			width:75px;
+
+		}
+		h1{
+			margin-top:15px;
+			font-size:0.9em;
+		}
+	}
+	.lge-button{
+		margin-top:10px;
+		font-size:0.6em;
+		max-width:250px;
+	}
+}
+
+
+/*IPAD*/
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+
+  	.main-content{
+  		margin-top:10%;
+  	}
+
+}
+
+
+
+
+

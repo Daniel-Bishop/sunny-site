@@ -1,0 +1,16 @@
+@media screen and (min-width: 1280px) {
+  .side-nav {
+    width: 200px;
+    position: absolute;
+    left: 80%;
+    top: 20%;
+    font-size: 1.8rem;
+    font-weight: 100;
+    color: white; }
+    .side-nav li {
+      border: none; }
+    .side-nav li:last-child a {
+      border: none; }
+    .side-nav a {
+      border: none;
+      color: white; } }
